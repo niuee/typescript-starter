@@ -6,9 +6,10 @@ import dts from 'vite-plugin-dts';
 export default defineConfig({
     resolve: {
         alias: {
-          '@components': resolve(__dirname, './src/components'),
-          '@utils': resolve(__dirname, './src/utils'),
-          // Add more aliases as needed
+            /** these are just examples, replace with actual paths */ 
+            '@components': resolve(__dirname, './src/components'),
+            '@utils': resolve(__dirname, './src/utils'),
+            // Add more aliases as needed
         },
     },
     plugins: [
